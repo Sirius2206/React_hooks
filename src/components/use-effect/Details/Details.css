@@ -1,0 +1,23 @@
+.details__container {
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    border: 1px solid black;
+    width: 100%;
+
+    flex-grow: 1;
+}
+
+.details__name {
+    font-size: larger;
+}
+
+.bold {
+    font-weight: bold;
+}

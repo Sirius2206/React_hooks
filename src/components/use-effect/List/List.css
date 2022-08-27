@@ -1,0 +1,14 @@
+.list__container {
+    display: flex;
+    height: fit-content;
+}
+
+.users__element {
+    width: 200px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.user__name {
+    cursor: pointer;
+}

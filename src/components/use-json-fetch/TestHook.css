@@ -1,0 +1,12 @@
+.test-block {
+    display: block;
+    width:50%;
+
+    margin: 10px;
+    border: 2px solid black;
+}
+.test-message {
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+}
