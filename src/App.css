@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 #root {
   margin: 0;
   height: 100vh;
-  box-sizing: border-box;
+  
 }
 
 .app_decomposition {
@@ -28,12 +29,6 @@
   cursor: pointer;
 }
 
-.app_coll {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 500px;
-  margin: auto;
+.app_authentication {
+  box-sizing: border-box;
 }
