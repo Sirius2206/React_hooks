@@ -6,8 +6,8 @@ import Landing from './components/authentication/Landing';
 import './App.css';
 
 function App() {
-  const [app, setApp] = useState(<Landing />);
-  const [currentClass, setCurrentClass] = useState("authentication");
+  const [app, setApp] = useState(<List />);
+  const [currentClass, setCurrentClass] = useState("use-effect");
   const apps = [
     {
       name: "use-effect",
@@ -18,8 +18,8 @@ function App() {
       component: <TestHook />
     },
     {
-      name: "authentication",
-      component: <Landing />
+      name: "",
+      component: ''
     }
   ]
 
@@ -34,7 +34,7 @@ function App() {
       <header className="header_main">
         <button className='use-effect' onClick={handleClick}>Задание №1(Карточки)</button>
         <button className='json-fetch' onClick={handleClick}>Задание №2(Кастомный хук)</button>
-        <button className="authentication" onClick={handleClick}>Задание №3(Collapse)</button>
+        <button className="" onClick={handleClick}>Задание №3(Collapse)</button>
       </header>
       <div className={"app_" + currentClass}>{app}</div>
     </div>
