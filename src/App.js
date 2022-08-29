@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import List from './components/use-effect/List/List';
 import TestHook from './components/use-json-fetch/TestHook';
-import Landing from './components/authentication/Landing';
 
 import './App.css';
 
